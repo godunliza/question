@@ -1,0 +1,164 @@
+
+/*Подключение шрифтов*/
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face{
+	font-family: Roboto-Thin;
+	src: url(fonts/Roboto-Thin.ttf);
+}
+ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+li .box
+{
+	display: inline;
+}
+ul .dot_list
+{
+	display: inline;
+
+}
+.page_s_zag
+{
+	width: 100%;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 2.125em;
+	letter-spacing: 0.2em;
+	display: inline-block;
+	margin-top: 4.3736100815418828762045959970348%;
+	margin-bottom:8.6730911786508524833209785025945%;
+	text-align: center;
+
+}
+
+.item
+{
+	display: inline-block;		
+}
+
+.it_round
+{
+	
+	border-radius: 50%;
+}
+.items
+{
+	margin-left: 19.125277983691623424759080800593%;
+	text-align: left;
+}
+.item_1,.item_2
+{
+	margin-right: 5.041246562786434463794683776352%;
+}
+
+.item_text
+{
+	text-align: center;
+	font-size: 1.125rem;
+	font-family: Roboto-Regular;
+	color: #030e24;
+
+	
+}
+.item:hover{
+	transition: filter 0.5s ease-out 0.5s;
+	filter: drop-shadow(5px 5px 20px #111);
+
+	
+
+}
+.
+.sp{
+	
+	
+	line-height: 1.5625em;
+	letter-spacing: 0.2em;
+}
+.fa-circle{
+
+display: inline-block;
+	font-size: 0.75rem;
+	margin-left: 1.5em;
+	color: #9c6849;
+
+}
+.page
+{
+	width: 100%;
+	height: 100vh;
+}
+.page_4
+{
+	background-color: #ebeef4;
+	text-align: center;
+	font-family: Roboto-Regular;
+	width: 100%;
+	height: 100vh;
+	
+}
+.it_4
+{
+	width: 22.181484876260311640696608615949%;
+	height:36.55589123867069486404833836858vh;
+	background-color: #030e24;
+	color: white;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+	}
+.it_4 .fa
+{
+	font-size: 3.3125rem;
+	margin-top: 22.2689076%;
+	margin-bottom: 7.56302521%;
+
+}
+
+.it_4_text
+{
+
+font-size: 1.375rem;
+
+}
+.hide
+{
+	 visibility: hidden ;
+}
+
+.page_4 .btn
+{
+	
+	width: 22.312824314306893995552260934025%;
+	height:5.1359516616314199395770392749245vh;
+	padding-top:1.334321719792438843587842846553%;
+	margin-top: 4.6701260192735359525574499629355%;//
+	margin-left: 39.065974796145292809488510007413%;
+
+
+}
+.page_4 .text_btn
+{
+
+color: white;
+font-size: 1.375rem;
+
+}
+.cont
+{
+	margin-top: 1.8532246108228317272053372868792%;
+	line-height: 20px;
+	letter-spacing: 0.05em;
+}
